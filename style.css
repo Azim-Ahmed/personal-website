@@ -77,10 +77,13 @@ section{
     text-align: center;
     font-size: 40px;
 }
+#first-work{
+    margin-left:50px ;
+}
 
 .third-width{
     float: left;
-    margin-left:15px;
+    margin-left:20px;
 }
 
 .photo-size{
