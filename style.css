@@ -5,6 +5,10 @@ body{
     font-family: 'Noto Serif', serif;
     margin: 0px;
 }
+.font-large{
+    font-size: 40px;
+    margin: 2px;
+}
 .for-button{
     text-decoration: none;
     background-image: linear-gradient(180deg, lightsalmon, tomato);
@@ -15,7 +19,8 @@ body{
 }
 #for-para{
     margin-top: 50px;
-padding-left: 70px;
+    padding-top: 100px;
+padding-left: 150px;
 }
 .half-width{
     float: left;
@@ -27,31 +32,80 @@ padding-left: 70px;
 .for-image{
     width: 80%;
     padding-left: 90px;
+    padding-top: 40px;
 }
 .for-top{
     background-image: url("header-bg.png");
-    background-position: right;
+    background-position:cover;
     background-repeat: no-repeat;
-    border: 2px solid lightsalmon;
     border-radius: 15px;
+    background-size: cover;
+
+    
+
 }
 section{
-    height: 500px;
+    height: 750px;
+    
 }
 #peter-dream{
     width: 80%;
+    padding-top: 50px;
 }
 #second-para{
     margin-left: 60px;
-    margin-top: 50px;
+    padding-left: 40px;
+    margin-top: 100px;
+    padding-top: 40px;
 }
 .second-background{
     background-image: url("biography-bg.png");
     background-repeat: no-repeat;
     background-position: center;
     height: 500px;
-    border: 2px solid tomato;
-    border-radius: 15px;
-
+   background-size: cover;
+   height: 650px;
 }
+
+.latest-background{
+    background-image: url("latest-work-bg.png");
+    background-size: cover;
+    height: 480px;
+    background-position:center;
+}
+.l_align{
+    text-align: center;
+    font-size: 40px;
+}
+
+.third-width{
+    float: left;
+    margin-left:15px;
+}
+
+.photo-size{
+    height: 380px;
+    width: 400px;
+}
+.next-align{
+    text-align: center;
+    padding-top: 60px;
+}
+.import-message{
+    background-image: linear-gradient(red, orange);
+    border-radius: 7px;
+    margin: 10px 400px;
+    padding: 30px 50px;
+}
+.footer-bg{
+    background-image: url("footer-bg.png");
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+}
+.footer-main{
+   text-align: center; 
+}
+
+
 
